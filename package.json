@@ -11,7 +11,8 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "ios": "cap add ios && cap sync ios",
-    "android": "cap add android && cap sync android"
+    "android": "cap add android && cap sync android",
+    "start": "vite preview --host --port $PORT"
   },
   "dependencies": {
     "@capacitor/android": "^5.0.0",
